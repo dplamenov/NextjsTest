@@ -25,7 +25,7 @@ display: flex;
 `;
 
 export const Element = styled((props) => <div {...props} />)`
-background: lightgray;
+background: rgb(244, 244, 244);
 height: 150px;
 font-family: sans-serif;
 padding: 5px;
