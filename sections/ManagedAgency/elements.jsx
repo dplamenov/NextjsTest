@@ -1,3 +1,4 @@
+import Image from "next/image";
 import styled from "styled-components";
 import { SectionContainer, SectionBigHeading, SectionSubheading } from "~/components";
 
@@ -28,10 +29,16 @@ export const Element = styled((props) => <div {...props} />)`
 background: rgb(244, 244, 244);
 height: 150px;
 font-family: sans-serif;
-padding: 5px;
+padding: 15px;
 margin: 10px 0;
 border-radius: 10px;
 text-align: left;
+display: flex;
+align-items:center;
 `;
 
 
+export const Icon = styled((props) => <Image {...props} />)`
+margin-right: 10px;
+display: block;
+`;

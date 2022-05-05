@@ -4,7 +4,8 @@ import {
   Subtitle,
   RightContainer,
   Flex,
-  Element
+  Element,
+  Icon
 } from "./elements";
 import Image from "next/image";
 
@@ -18,23 +19,31 @@ export const ManagedAgency = () => {
           <Image src="/img/video.png" width="400px" height="600px" alt="image" />
           <RightContainer>
             <Element>
-              <h4>Brief</h4>
-              <p style={{textAlign: 'left'}}>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur, sapiente.
-              </p>
+              <Icon src="/img/brief.png" width="50px" height="50px" alt="image" />
+              <div style={{marginLeft: '20px'}}>
+                <h4>Brief</h4>
+                <p style={{ textAlign: 'left' }}>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur, sapiente.
+                </p>
+              </div>
             </Element>
             <Element>
-              <h4>Search</h4>
-              <p style={{ textAlign: 'left' }}>
-
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur, sapiente.
-              </p>
+              <Icon src="/img/brief.png" width="50px" height="50px" alt="image" />
+              <div style={{ marginLeft: '20px' }}>
+                <h4>Brief</h4>
+                <p style={{ textAlign: 'left' }}>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur, sapiente.
+                </p>
+              </div>
             </Element>
             <Element>
-              <h4>Pitch</h4>
-              <p style={{ textAlign: 'left' }}>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur, sapiente.
-              </p>
+              <Icon src="/img/brief.png" width="50px" height="50px" alt="image" />
+              <div style={{ marginLeft: '20px' }}>
+                <h4>Brief</h4>
+                <p style={{ textAlign: 'left' }}>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur, sapiente.
+                </p>
+              </div>
             </Element>
           </RightContainer>
         </Flex>
