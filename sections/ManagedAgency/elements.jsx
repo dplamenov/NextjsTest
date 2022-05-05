@@ -19,15 +19,21 @@ text-align: center;
 export const RightContainer = styled((props) => <div {...props}  />)`
 text-align: center;
 margin-left: 50px;
+@media (max-width: 768px) {
+  margin-left: 0;
+}
 `;
 
 export const Flex = styled((props) => <div {...props} />)`
 display: flex;
+@media (max-width: 768px) {
+  flex-direction: column;
+}
 `;
 
 export const Element = styled((props) => <div {...props} />)`
 background: rgb(244, 244, 244);
-height: 150px;
+height: 100px;
 font-family: sans-serif;
 padding: 15px;
 margin: 10px 0;
